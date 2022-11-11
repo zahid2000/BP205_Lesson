@@ -1,0 +1,15 @@
+[
+    {
+        "id":1,
+        "name":"Ali",
+        "surname":"Mammadov"
+    },{
+        "id":2,
+        "name":"Nezrin",
+        "surname":"Asgarova"
+    },{
+        "id":3,
+        "name":"Seyhun",
+        "surname":"Ceferov"
+    }
+]
