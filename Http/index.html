@@ -15,16 +15,28 @@
   </head>
   <body>
     <div class="container mt-4">
-      <button id="textBtn"   class="btn btn-primary">GetText</button>
+      <button id="textBtn" class="btn btn-primary">GetText</button>
       <button id="jsonBtn" class="btn btn-secondary">GetJson</button>
       <button id="apiBtn" class="btn btn-warning">GetApi</button>
+      <button id="postBtn" class="btn btn-success">PostApi</button>
+      <button id="axiosBtn" class="btn btn-success">GetApiAxios</button>
+      <button id="ajaxBtn" class="btn btn-success">GetApiAjax</button>
+      <button id="jqueryAjaxBtn" class="btn btn-success">
+        GetApiAjaxWithJquery
+      </button>
     </div>
 
+    <div class="container mt-4 mb-2">
+      <p id="result"></p>
+    </div>
 
-<div class="container mt-4 mb-2">
-    <p id="result"></p>
-</div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="app.js"></script>
   </body>
 </html>
-
